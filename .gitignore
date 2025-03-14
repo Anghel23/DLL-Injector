@@ -1,0 +1,48 @@
+# .gitignore pentru Visual Studio și soluții C++
+
+# Fisiere de build
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.suo
+*.sdf
+*.ipch
+*.opensdf
+*.tlog
+*.log
+*.user
+*.VC.db
+
+# Fisiere generate de Visual Studio
+.vscode/
+*.vs/
+*.ncb
+*.code-workspace
+*.VC.opendb
+
+# Output directories
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+
+# Fisiere CMake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Fisiere specifice Git
+*.orig
+*.rej
+*.swp
+
+# Config personal
+*.userprefs
+*.local
+
